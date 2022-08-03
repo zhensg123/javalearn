@@ -8,5 +8,10 @@ public class JavaExpress {
        }else{
            System.out.println("小于50");
        }
+
+
+       while(a < 0) {
+           System.out.println(a);
+       }
     }
 }
