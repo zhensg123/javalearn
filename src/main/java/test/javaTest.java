@@ -9,5 +9,11 @@ public class javaTest {
         cat.eat();
         cat.run();
         System.out.println(cat == tt);
+        JavaObject.month = 23;
+        cat.month = 23;
+        cat.setName("宠物猫");
+        cat.getName();
+        System.out.println(cat.getName());
     }
+
 }

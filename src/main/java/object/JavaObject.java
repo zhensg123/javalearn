@@ -1,8 +1,8 @@
 package object;
 
 public class JavaObject {
-    String name;
-    int month;
+    private  String name;
+    public  static int month;
     double weight;
 
     public  JavaObject(){
@@ -14,11 +14,27 @@ public class JavaObject {
       this.month = month;
       this.weight = weight;
     }
-    public void eat(){
+    public void eat() {
         run();
         System.out.println(this.weight);
     }
+
     public void run(){
         System.out.println("小猫快跑");
+    }
+
+    public   int getMonth() {
+        return month;
+    }
+
+    public void setMonth(int month) {
+        this.month = month;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+    public String getName() {
+        return this.name;
     }
 }
