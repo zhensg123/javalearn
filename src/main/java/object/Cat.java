@@ -1,6 +1,7 @@
 package object;
 
 public class Cat extends  Animal{
+    private static final String type = "12";
     private String  sex;
 
     public Cat() {

@@ -1,6 +1,7 @@
 package object;
 
 public class Dog extends Animal {
+    private static final String type = "12";
     private double weight;
 
     public Dog() {
